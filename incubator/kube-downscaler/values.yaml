@@ -35,8 +35,8 @@ rbac:
   serviceAccountName: default
 
 image:
-  repository: hjacobs/kube-downscaler
-  tag: 20.5.0
+  repository: viitap1/kube-downscaler
+  tag: 20.5.1
   pullPolicy: IfNotPresent
 
 resources:

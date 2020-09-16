@@ -36,21 +36,19 @@ rbac:
 
 image:
   repository: viitap1/kube-downscaler
-  tag: 20.5.3
+  tag: 20.5.4
   pullPolicy: IfNotPresent
 
 resources:
-  limits: {}
-  requests: {}
-  # limits:
-  #   cpu: 50m
-  #   memory: 200Mi
-  # requests:
-  #   cpu: 50m
-  #   memory: 200Mi
+  limits:
+    cpu: 50m
+    memory: 200Mi
+  requests:
+    cpu: 50m
+    memory: 200Mi
 
-securityContext: {}
-# runAsUser: 1000
+securityContext:
+  runAsUser: 1000
 
 extraArgs: []
 # - --include-resources deployments

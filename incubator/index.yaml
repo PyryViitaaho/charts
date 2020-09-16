@@ -2,8 +2,26 @@ apiVersion: v1
 entries:
   kube-downscaler:
   - apiVersion: v1
+    appVersion: 20.5.4
+    created: "2020-09-16T15:29:19.47269+03:00"
+    description: A Helm chart for kube-downscaler
+    digest: caad4408b7edfce9d692b47385efd7a87590d2caba98b8c583dad6f17ea0e7e9
+    home: https://github.com/hjacobs/kube-downscaler
+    keywords:
+    - k8s pods scheduler
+    - scheduled lifecycle
+    maintainers:
+    - email: c.tresarrieu@gmail.com
+      name: Rowern
+    name: kube-downscaler
+    sources:
+    - https://github.com/hjacobs/kube-downscaler
+    urls:
+    - kube-downscaler-0.5.4.tgz
+    version: 0.5.4
+  - apiVersion: v1
     appVersion: 20.5.3
-    created: "2020-09-16T13:48:52.46315+03:00"
+    created: "2020-09-16T15:29:19.470549+03:00"
     description: A Helm chart for kube-downscaler
     digest: 13345dc52b8afdc9ffa85ff95032ec2434a6af7b6c07343fa71dfc52260e9676
     home: https://github.com/hjacobs/kube-downscaler
@@ -21,7 +39,7 @@ entries:
     version: 0.5.3
   - apiVersion: v1
     appVersion: 20.5.2
-    created: "2020-09-16T13:48:52.461282+03:00"
+    created: "2020-09-16T15:29:19.466087+03:00"
     description: A Helm chart for kube-downscaler
     digest: ad900142e8a34328cb9994af99586db9963bfa70e0e539576caf0fa6608f86bb
     home: https://github.com/hjacobs/kube-downscaler
@@ -39,7 +57,7 @@ entries:
     version: 0.5.2
   - apiVersion: v1
     appVersion: 20.5.1
-    created: "2020-09-16T13:48:52.458553+03:00"
+    created: "2020-09-16T15:29:19.463424+03:00"
     description: A Helm chart for kube-downscaler
     digest: eea84f13b64e6dc1350295a347a1b9c03f51d11529b662cd17713ee4cb7cfd1a
     home: https://github.com/hjacobs/kube-downscaler
@@ -55,4 +73,4 @@ entries:
     urls:
     - kube-downscaler-0.5.1.tgz
     version: 0.5.1
-generated: "2020-09-16T13:48:52.454292+03:00"
+generated: "2020-09-16T15:29:19.459095+03:00"

@@ -36,7 +36,7 @@ rbac:
 
 image:
   repository: viitap1/kube-downscaler
-  tag: 20.5.8
+  tag: 20.5.9
   pullPolicy: IfNotPresent
 
 resources:
